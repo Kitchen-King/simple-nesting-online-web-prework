@@ -81,13 +81,12 @@ def adding_matz
         }
  		}
 
-  temp_hash = {:yukihiro_matsumoto => {
+  
+ programmer_hash[:yukihiro_matsumoto] = {
 :known_for => "Ruby",
-:languages => ["LISP", "C"]
-}}
+:languages => ["LISP", "C"]}  
 
-temp_hash.merge!(programmer_hash)
-    
+programmer_hash
 end
 
 def changing_alan
